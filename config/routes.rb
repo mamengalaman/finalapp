@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+  get 'home/landing'
+  get 'home/contact'
+  get 'home/about'
+  get 'home/who'
+  get 'home/where'
   get 'legal/privacy'
   get 'legal/terms'
   get 'legal/cookies'
